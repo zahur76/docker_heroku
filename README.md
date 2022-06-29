@@ -6,6 +6,10 @@
 
 2. Set environment variables in heroku panel
 
+## Command to build image locally with specific name
+
+``` docker build -t docker_heroku:v1 .```
+
 ## Commands to push to app
 
 * Will make new image and container based on DockerFile
